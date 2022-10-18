@@ -1,0 +1,29 @@
+form {
+    margin: 5%; 
+}
+
+h1 {
+    color: rgb(0, 119, 188);
+}
+
+fieldset {
+    margin-top: 1%;
+    border: 2px dotted rgb(113, 196, 224);
+}
+
+.izquierda {
+    display: inline-block;
+    width: 170px;
+    margin-right: 100px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.observaciones {
+    display: flex;
+}
+
+.error {
+    color: red;
+}
