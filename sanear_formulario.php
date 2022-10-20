@@ -3,7 +3,7 @@
     function VALIDAR_DIRECCION($cadena) {
         if (strlen($cadena) < 4 || strlen($cadena) > 80) return false;
 
-        $patron= "/^[a-zA-Z0-9\/º.,\s]+$/";
+        $patron= "(^[a-zA-Z0-9\/º.,\s]+$)";
         return preg_match($patron, $cadena) ;
 
         //if (preg_match("/[^(A-Za-z0-9\./º )]/", $cadena)) return false; // Este preg_match es el que no funciona bien
